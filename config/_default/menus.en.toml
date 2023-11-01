@@ -20,6 +20,18 @@
   pageRef = "Albums"
   weight = 20
 
+[[main]]
+  identifier = "envelope"
+  pre = "envelope"
+  url = "mailto:mike.dimitrov@gmail.com"
+  weight = 30
+
+[[main]]
+  identifier = "whatsapp"
+  pre = "whatsapp"
+  url = "https://wa.me/19044663026"
+  weight = 40
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20
