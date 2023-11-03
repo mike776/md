@@ -33,6 +33,11 @@
   weight = 40
 
 #[[main]]
+#  name = "Travel Planes"
+#  pageRef = "travel"
+#  weight = 50  
+
+#[[main]]
 #  name = "Parent"
 #  weight = 20
 

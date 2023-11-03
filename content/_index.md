@@ -30,3 +30,8 @@ Our new baby is the "NewMar Kountry Star"
   <img src="gallery02/IMG_7972.jpg" class="grid-w33" />
   <img src="gallery02/IMG_3412.jpg" class="grid-w33" />
 {{< /gallery >}}
+
+{{< katex >}}
+       Golden Ratio
+
+\\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\)
