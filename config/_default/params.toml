@@ -25,7 +25,7 @@ defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
 # smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -125,6 +125,12 @@ defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
+
+#[whatsapp]
+ # identifier = "whatsapp"
+ # globalWidgetMessage = "Call me"
+ # globalWidgetPosition = "Right"
+ # domain = "https://wa.me/19044663026"
 
 [buymeacoffee]
   # identifier = ""
