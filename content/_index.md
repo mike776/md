@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Our Travel Site! :tada:"
+title: "Welcome to Our Travel Site!"
 description: "."
 ---
 
