@@ -32,6 +32,6 @@ Our new baby is the "NewMar Kountry Star"
 {{< /gallery >}}
 
 {{< katex >}}
-       Golden Ratio
+       <br>
 
 \\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\)
