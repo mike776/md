@@ -9,6 +9,7 @@ series_order: 40
 ---
 
 This is the collection of photos from our new RV Newmar Kountry Star.
+The new addition we have is the Hydralic Lift for the bike.
 
 ### Participants:
 Jackson, Mike
