@@ -67,7 +67,7 @@ defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
   showReadingTime = false
   showTableOfContents = false
   # showRelatedContent = false
-  # relatedContentLimit = 3
+  # relatedContentLimit = 3
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = true
@@ -95,7 +95,7 @@ defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
 [taxonomy]
   showTermCount = true
   showHero = false
-   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+   heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = true
   showLikes = true
