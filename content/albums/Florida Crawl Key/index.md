@@ -8,7 +8,7 @@ tags: ["advanced", "css", "docs"]
 series_order: 35
 ---
 
-This is the collection of photos from our anniversary in Florida Crawl Key
+This is the collection of photos from our anniversary  (35 Years) in Florida Crawl Key
 
 ### Participants:
 Mike, Tina, Dani, Jackson
