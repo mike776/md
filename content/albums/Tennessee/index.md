@@ -1,6 +1,6 @@
 ---
 title: Tennessee, TN
-date: 2018-06-21
+date: 2024-06-20
 draft: false
 description: "Tennessee"
 slug: "Tennessee"
@@ -8,7 +8,7 @@ tags: ["advanced", "css", "docs"]
 series_order: 19
 ---
 
-This is the collection of photos from our Tennessee trip.
+This is the collection of photos from our Tennessee trip. This is the second time we are here so scroll down for the most resent pictures.
 
 ### Participants:
 Mike, Tina
