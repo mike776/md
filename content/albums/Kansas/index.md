@@ -8,7 +8,7 @@ tags: ["advanced", "css", "docs"]
 series_order: 2
 ---
 
-This is the collection of photos from our Kansas trip. Scroll down to see most resent pictures.
+This is the collection of photos from our Kansas trip. Scroll down to see most recent pictures.
 
 ### Participants:
 Mike, Tina
