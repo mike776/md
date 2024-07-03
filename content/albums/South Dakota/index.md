@@ -1,5 +1,5 @@
 ---
-title: South Dakota
+title: South Dakota, SD
 date: 2024-06-29
 draft: false
 description: "South Dakota"

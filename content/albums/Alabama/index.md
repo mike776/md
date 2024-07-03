@@ -1,5 +1,5 @@
 ---
-title: Alabama
+title: Alabama, AL
 date: 2024-06-18
 draft: false
 description: "Alabama"

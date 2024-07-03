@@ -1,5 +1,5 @@
 ---
-title: Manatee Park
+title: Manatee Park, FL
 date: 2023-05-17
 draft: false
 description: "Manatee Park"

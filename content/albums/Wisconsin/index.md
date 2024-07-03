@@ -8,7 +8,7 @@ tags: ["advanced", "css", "docs"]
 series_order: 8
 ---
 
-This is the collection of photos from our Nebraska trip. We did have a flat tire there...
+This is the collection of photos from our Wisconsin trip. We did have a flat tire there...
 
 ### Participants:
 Mike, Tina

@@ -1,5 +1,5 @@
 ---
-title: Missouri
+title: Missouri, MO
 date: 2024-06-23
 draft: false
 description: "Missouri"
