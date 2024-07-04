@@ -1,6 +1,6 @@
 ---
 title: Wyoming, WY
-date: 2017-08-28
+date: 2024-07-04
 draft: false
 description: "Wyoming"
 slug: "Wyoming"
