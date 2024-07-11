@@ -1,14 +1,14 @@
 ---
 title: Washington, WA
-date: 2018-07-30
+date: 2024-07-11
 draft: false
 description: "Washington"
 slug: "Washington"
 tags: ["advanced", "css", "docs"]
-series_order: 26
+series_order: 42
 ---
 
-This is the collection of photos from our Washington State trip, to our way to Alaska.
+This is the collection of photos from our Washington State trip, to our way to Alaska, in 2018. New pictures are from 2024 trip. 
 
 ### Participants:
 Mike, Tina
