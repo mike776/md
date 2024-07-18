@@ -1,14 +1,14 @@
 ---
 title: Utah, UT
-date: 2018-08-19
+date: 2024-07-18
 draft: false
 description: "Utah"
 slug: "Utah"
 tags: ["advanced", "css", "docs"]
-series_order: 30
+series_order: 45
 ---
 
-This is the collection of photos from our Utah trip.
+This is the collection of photos from our Utah trip. Scroll down for more resent pictures.
 
 ### Participants:
 Mike, Tina
