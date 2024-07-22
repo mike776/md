@@ -1,11 +1,11 @@
 ---
 title: Texas, TX
-date: 2017-06-22
+date: 2024-07-21
 draft: false
 description: "TEXAS"
 slug: "texas"
 tags: ["advanced", "css", "docs"]
-series_order: 2
+series_order: 47
 ---
 
 This is the collection of photos from our Texas trip.
