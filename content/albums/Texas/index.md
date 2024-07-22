@@ -1,6 +1,6 @@
 ---
 title: Texas, TX
-date: 2024-07-21
+date: 2024-07-22
 draft: false
 description: "TEXAS"
 slug: "texas"
@@ -8,7 +8,7 @@ tags: ["advanced", "css", "docs"]
 series_order: 47
 ---
 
-This is the collection of photos from our Texas trip.
+This is the collection of photos from our Texas trip. Scroll down for more resent pictures.
 
 ### Participants:
 Mike, Tina
