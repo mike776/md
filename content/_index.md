@@ -4,7 +4,7 @@ description: "."
 ---
 
 {{< typeit >}}The states we have visited are in orange. The green state is where we are currently. {{< /typeit >}}
-  <img src="/images/FrontPage50.png" >
+  <img src="/images/FrontPage51.png" >
   <BR>
 The first RV that we owned and traveled with was the "Newmar Dutch Star"
 
