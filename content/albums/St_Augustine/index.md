@@ -1,6 +1,6 @@
 ---
 title: St. Augustine, FL
-date: 2024-10-08
+date: 2024-11-08
 draft: false
 description: "St. Augustine"
 slug: "St. Augustine"
