@@ -13,7 +13,7 @@ title = "Mike Dimitrov"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
- [author]
+ [params.author]
  name = "Mike Dimitrov"
  image = "/favicon-32x32.png"
  headline = "This is our traveling site"
