@@ -1,48 +1,47 @@
+name: Build and Deploy with Hugo
+
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
-  pull_request:
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+      - main  # Or your main branch name
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Setup Hugo
+      - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.143.0'
-          extended: true
+          hugo-version: 'latest' # Or specify a version like '0.110.0'
 
-      - name: Build
-        run: hugo --minify
+      - name: Build with Hugo
+        run: hugo # Or hugo --minify if you want to minify
+
+      - name: Print Working Directory
+        run: pwd
+
+      - name: List files in the public directory
+        run: ls -l ./public # Hugo's default output directory is "public"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./public
+          name: github-pages # Or a custom name if needed (e.g., my-hugo-site)
+          path: ./public      # Path to Hugo's default output directory
 
-# Deployment job
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      contents: read
+    environment: production
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          # artifact-name: github-pages (implied if not specified)
+          path: ./public # Must be the same path as in the upload step
