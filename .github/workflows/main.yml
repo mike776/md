@@ -15,7 +15,7 @@ jobs:
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.126.1' # Or specify a version like '0.110.0'
+          hugo-version: '0.143.0' # Or specify a version like '0.110.0'
 
       - name: Build with Hugo
         run: hugo # Or hugo --minify if you want to minify
