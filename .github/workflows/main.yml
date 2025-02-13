@@ -1,41 +1,48 @@
-name: Build and Deploy with Hugo
-
 on:
   push:
     branches:
-      - main  # Or your main branch name
+      - main  # Set a branch to deploy
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Install Hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.143.0' # Or specify a version like '0.110.0'
+          hugo-version: '0.126.1'
+          extended: true
 
-      - name: Build with Hugo
-        run: hugo # Or hugo --minify if you want to minify
+      - name: Build
+        run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages # Or a custom name if needed (e.g., my-hugo-site)
-          path: ./public      # Path to Hugo's default output directory
+          path: ./public
 
+# Deployment job
   deploy:
-    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      contents: read
-    environment: production
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v1
-        with:
-          # artifact-name: github-pages (implied if not specified)
-          path: ./public # Must be the same path as in the upload step
