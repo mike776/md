@@ -20,12 +20,6 @@ jobs:
       - name: Build with Hugo
         run: hugo # Or hugo --minify if you want to minify
 
-      - name: Print Working Directory
-        run: pwd
-
-      - name: List files in the public directory
-        run: ls -l ./public # Hugo's default output directory is "public"
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
