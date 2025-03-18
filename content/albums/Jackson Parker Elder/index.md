@@ -7,6 +7,12 @@ slug: "Jackson Parker Elder"
 tags: ["advanced", "css", "docs"]
 series_order: 34
 ---
+<script>
+var password = prompt("Enter password:");
+if (password !== "4663026") {
+window.location.href = "/albums"; // Redirect if incorrect
+}
+</script>
 
 This is the collection of photos of Jackson Parker Elder our first grandson.
 
