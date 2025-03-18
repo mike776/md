@@ -12,6 +12,7 @@ enableRobotsTXT = true
 pagination.pagerSize = 40
 summaryLength = 0
 
+
 buildDrafts = false
 buildFuture = true
 
