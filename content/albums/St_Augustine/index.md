@@ -1,9 +1,9 @@
 ---
 title: St. Augustine, FL
-date: 2024-11-08
+date: 2025-03-15
 draft: false
 description: "St. Augustine"
-slug: "St. Augustine"
+slug: "St. Sugustine"
 tags: ["advanced", "css", "docs"]
 series_order: 48
 ---
