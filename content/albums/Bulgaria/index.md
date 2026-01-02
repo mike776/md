@@ -1,6 +1,6 @@
 ---
 title: Bulgaria, BG
-date: 2025-09-01
+date: 2026-01-01
 draft: false
 description: "Bulgaria"
 slug: "Bulgaria"
